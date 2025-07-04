@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div className=" bg-gray-900 text-slate-200 h-screen p-8 ">
-      <h1 className="flex items-center text-4xl text-amber-400 font-bold before:w-0.5 before:h-4 before:bg-amber-100 gap-2 before:rounded-md ">
+      <h1 className="flex items-center text-3xl sm:text-4xl md:text-5xl text-amber-400 font-bold before:w-0.5 before:h-4 before:bg-amber-100 gap-2 before:rounded-md ">
         Hello Tailwind
       </h1>
       <p>Aprendendo a utilizar a ferramenta</p>
