@@ -27,7 +27,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <div className="grid min-h-screen grid-cols-[minmax(18rem,20rem)_1fr]">
+          <aside className="border-r border-zinc-200 px-5 py-8 shadow">sidebar</aside>
+          <main className="px-4 pb-12 pt-8">{children}</main>
+        </div>
       </body>
     </html>
   );
